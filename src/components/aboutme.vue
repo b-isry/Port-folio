@@ -17,7 +17,7 @@
         <!-- Picture Frame -->
         <div class="relative flex items-center">
           <div class="w-48 h-60 border-4 border-white overflow-hidden mx-6">
-            <img src="../../figma/portfolio_01.png" alt="Your Picture" class="w-full h-full object-cover" />
+            <img src="../assets/images/me.jpg" alt="Your Picture" class="w-full h-full object-cover" />
           </div>
         </div>
       </div>
