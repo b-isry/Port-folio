@@ -2,7 +2,7 @@
   "name": "my-vue-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://<b-isry>.github.io/<Port-flio>",
+  "homepage": "https://b-isry.github.io/Port-flio",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
