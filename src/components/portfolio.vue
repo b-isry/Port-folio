@@ -5,16 +5,16 @@
         <div class="flex flex-col space-y-6 items-center justify-center">
           <h1 class="text-4xl md:text-6xl  text-white" style="font-family: 'Space Grotesk', sans-serif;">PORTFOLIO</h1>
           <div class="flex space-x-6 mt-4">
-            <a href="https://instagram.com" target="_blank" class="text-white hover:text-gray-400">
+            <a href="https://instagram.com/b_isry" target="_blank" class="text-white hover:text-gray-400">
               <i class="fab fa-instagram text-2xl"></i>
             </a>
-            <a href="https://linkedin.com" target="_blank" class="text-white hover:text-gray-400">
+            <a href="https://www.linkedin.com/in/bisrat-teshome-6182632b4/" target="_blank" class="text-white hover:text-gray-400">
               <i class="fab fa-linkedin text-2xl"></i>
             </a>
-            <a href="https://github.com" target="_blank" class="text-white hover:text-gray-400">
+            <a href="https://github.com/b-isry" target="_blank" class="text-white hover:text-gray-400">
               <i class="fab fa-github text-2xl"></i>
             </a>
-            <a href="https://telegram.org" target="_blank" class="text-white hover:text-gray-400">
+            <a href="https://t.me/b_isry" target="_blank" class="text-white hover:text-gray-400">
               <i class="fab fa-telegram text-2xl"></i>
             </a>
           </div>

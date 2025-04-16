@@ -4,8 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+html, body {
+  margin: 16px; /* Add default margin */
+  padding: 0;
+  background-color: black;
+  color: white;
   font-family: "Space Grotesk", sans-serif;
+  overflow-x: hidden;
 }
 
 /* Add custom styles below if needed */

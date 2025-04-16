@@ -12,19 +12,18 @@ export default {
 </script>
 
 <template>
-  <div id="app" class="mt-16">
+  <div id="app" class="bg-black text-white">
     <Navbar />
-    <transition name="fade" mode="out-in">
-      <router-view />
-    </transition>
+    <div class="min-h-screen bg-black">
+      <transition name="fade" mode="out-in">
+        <router-view />
+      </transition>
+    </div>
     <CustomCursor />
   </div>
 </template>
 
 <style scoped>
-</style>
-
-<style>
 /* Smooth fade transition */
 .fade-enter-active, .fade-leave-active {
   transition: opacity 0.5s ease;
