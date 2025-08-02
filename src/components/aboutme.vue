@@ -6,7 +6,7 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-start">
         <!-- Paragraph -->
         <div class="order-2 md:order-none">
-          <p class="text-base md:text-lg mb-4 leading-relaxed">
+          <p class="text-base md:text-lg mb-4 text-gray-400 leading-relaxed">
             Hello! I'm Bisrat Teshome, a software engineer operating from Dessie, Ethiopia. 
             My passion lies in the backend – architecting and developing reliable, scalable solutions. 
             I'm constantly learning and refining my skills, grounding my practical abilities in solid academic understanding and direct project experience.
