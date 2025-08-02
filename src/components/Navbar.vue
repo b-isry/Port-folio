@@ -12,14 +12,6 @@
           @mouseenter="isHovering = true"
           @mouseleave="isHovering = false"
         >
-          Home
-        </router-link>
-        <router-link
-          to="/aboutme"
-          class="hover:text-gray-300 transition duration-300"
-          @mouseenter="isHovering = true"
-          @mouseleave="isHovering = false"
-        >
           About
         </router-link>
         <router-link
@@ -31,6 +23,22 @@
           Projects
         </router-link>
         <router-link
+          to="/educexp"
+          class="hover:text-gray-300 transition duration-300"
+          @mouseenter="isHovering = true"
+          @mouseleave="isHovering = false"
+        >
+          Experience
+        </router-link>
+        <!-- <router-link
+          to="/certificates"
+          class="hover:text-gray-300 transition duration-300"
+          @mouseenter="isHovering = true"
+          @mouseleave="isHovering = false"
+        >
+          Certificates
+        </router-link> -->
+        <router-link
           to="/contact"
           class="hover:text-gray-300 transition duration-300"
           @mouseenter="isHovering = true"
@@ -39,16 +47,6 @@
           Contact
         </router-link>
       </div>
-
-      <!-- Call to Action Button -->
-      <router-link
-        to="/contact"
-        class="hidden md:block bg-white text-black px-4 py-2 rounded-md hover:bg-gray-200 transition duration-300"
-        @mouseenter="isHovering = true"
-        @mouseleave="isHovering = false"
-      >
-        Work With Me
-      </router-link>
 
       <!-- Hamburger Menu -->
       <div class="md:hidden flex items-center">
@@ -76,21 +74,16 @@
       v-show="menuOpen"
       class="md:hidden bg-black text-white space-y-4 px-4 py-6"
     >
-      <router-link to="/" class="block hover:text-gray-300">Home</router-link>
-      <router-link to="/about" class="block hover:text-gray-300">About</router-link>
+      <router-link to="/" class="block hover:text-gray-300">About</router-link>
       <router-link to="/projects" class="block hover:text-gray-300">Projects</router-link>
+      <router-link to="/educexp" class="block hover:text-gray-300">Experience</router-link>
+      <!-- <router-link to="/certificates" class="block hover:text-gray-300">Certificates</router-link> -->
       <router-link to="/contact" class="block hover:text-gray-300">Contact</router-link>
-      <router-link
-        to="/contact"
-        class="w-full bg-white text-black px-4 py-2 rounded-md hover:bg-gray-200 transition duration-300"
-      >
-        Work With Me
-      </router-link>
     </div>
   </nav>
 </template>
 
-<script>
+<script> 
 import { ref } from "vue";
 
 export default {
@@ -113,3 +106,6 @@ html {
   scroll-behavior: smooth;
 }
 </style>
+
+
+

@@ -4,7 +4,7 @@
         <!-- Left Side: Title and Social Links -->
         <div class="flex flex-col space-y-6 items-center justify-center">
           <h1 class="text-4xl md:text-6xl  text-white" style="font-family: 'Space Grotesk', sans-serif;">PORTFOLIO</h1>
-          <div class="flex space-x-6 mt-4">
+          <div class="flex space-x-6 mt-4 items-center">
             <a href="https://instagram.com/b_isry" target="_blank" class="text-white hover:text-gray-400">
               <i class="fab fa-instagram text-2xl"></i>
             </a>
@@ -17,6 +17,13 @@
             <a href="https://t.me/b_isry" target="_blank" class="text-white hover:text-gray-400">
               <i class="fab fa-telegram text-2xl"></i>
             </a>
+            <!-- CV Button next to socials -->
+            <router-link
+              to="/contact"
+              class="border border-white text-white px-4 py-2 rounded-md hover:bg-white hover:text-black transition duration-300 ml-4"
+            >
+              CV
+            </router-link>
           </div>
         </div>
   

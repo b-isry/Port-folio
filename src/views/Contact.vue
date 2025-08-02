@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen bg-black text-white flex items-center justify-center px-4">
-    <div class="max-w-4xl w-full grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div class="max-w-xl w-full">
       <!-- Left: Contact Form -->
       <form
         @submit.prevent="handleSubmit"
@@ -53,13 +53,6 @@
         </button>
         <p v-if="successMessage" class="text-green-500 text-sm mt-4">{{ successMessage }}</p>
       </form>
-
-      <!-- Right: Message -->
-      <div class="flex items-center justify-center text-center">
-        <p class="text-lg">
-          Got any idea? I’d love to collaborate!
-        </p>
-      </div>
     </div>
   </div>
 </template>
@@ -118,3 +111,4 @@ export default {
   color: black;
 }  */
 </style>
+
