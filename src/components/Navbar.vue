@@ -8,25 +8,22 @@
       <div class="hidden md:flex space-x-8">
         <router-link
           to="/"
-          class="hover:text-gray-300 transition duration-300"
-          @mouseenter="isHovering = true"
-          @mouseleave="isHovering = false"
+          class="hover:text-gray-300 transition duration-300 pb-1"
+          :class="{ 'border-b-2 border-white': $route.path === '/' }"
         >
           About
         </router-link>
         <router-link
           to="/projects"
-          class="hover:text-gray-300 transition duration-300"
-          @mouseenter="isHovering = true"
-          @mouseleave="isHovering = false"
+          class="hover:text-gray-300 transition duration-300 pb-1"
+          :class="{ 'border-b-2 border-white': $route.path === '/projects' }"
         >
           Projects
         </router-link>
         <router-link
           to="/educexp"
-          class="hover:text-gray-300 transition duration-300"
-          @mouseenter="isHovering = true"
-          @mouseleave="isHovering = false"
+          class="hover:text-gray-300 transition duration-300 pb-1"
+          :class="{ 'border-b-2 border-white': $route.path === '/educexp' }"
         >
           Experience
         </router-link>
@@ -40,9 +37,8 @@
         </router-link> -->
         <router-link
           to="/contact"
-          class="hover:text-gray-300 transition duration-300"
-          @mouseenter="isHovering = true"
-          @mouseleave="isHovering = false"
+          class="hover:text-gray-300 transition duration-300 pb-1"
+          :class="{ 'border-b-2 border-white': $route.path === '/contact' }"
         >
           Contact
         </router-link>
@@ -74,16 +70,16 @@
       v-show="menuOpen"
       class="md:hidden bg-black text-white space-y-4 px-4 py-6"
     >
-      <router-link to="/" class="block hover:text-gray-300">About</router-link>
-      <router-link to="/projects" class="block hover:text-gray-300">Projects</router-link>
-      <router-link to="/educexp" class="block hover:text-gray-300">Experience</router-link>
+      <router-link to="/" class="block hover:text-gray-300 pb-1" :class="{ 'border-b-2 border-white': $route.path === '/' }">About</router-link>
+      <router-link to="/projects" class="block hover:text-gray-300 pb-1" :class="{ 'border-b-2 border-white': $route.path === '/projects' }">Projects</router-link>
+      <router-link to="/educexp" class="block hover:text-gray-300 pb-1" :class="{ 'border-b-2 border-white': $route.path === '/educexp' }">Experience</router-link>
       <!-- <router-link to="/certificates" class="block hover:text-gray-300">Certificates</router-link> -->
-      <router-link to="/contact" class="block hover:text-gray-300">Contact</router-link>
+      <router-link to="/contact" class="block hover:text-gray-300 pb-1" :class="{ 'border-b-2 border-white': $route.path === '/contact' }">Contact</router-link>
     </div>
   </nav>
 </template>
 
-<script> 
+<script>
 import { ref } from "vue";
 
 export default {
@@ -106,6 +102,7 @@ html {
   scroll-behavior: smooth;
 }
 </style>
+
 
 
 
