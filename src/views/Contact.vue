@@ -1,12 +1,44 @@
 <template>
   <div class="min-h-screen bg-black text-white flex items-center justify-center px-4">
-    <div class="max-w-xl w-full">
-      <!-- Left: Contact Form -->
+    <div class="max-w-5xl w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+      <!-- Left: Contact Info & Socials -->
+      <div class="flex flex-col justify-center items-center md:items-start text-center md:text-left">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">Contact Me</h2>
+        <p class="text-base text-gray-400 mb-6">
+          Let's work together! Reach out for collaborations, questions, or feedback.
+        </p>
+        <div class="flex gap-4 mb-4">
+          <a
+            href="https://www.linkedin.com/in/bisrat-teshome-6182632b4/"
+            target="_blank"
+            aria-label="LinkedIn"
+            class="text-white hover:text-gray-400"
+          >
+            <i class="fab fa-linkedin text-2xl"></i>
+          </a>
+          <a
+            href="https://t.me/b_isry"
+            target="_blank"
+            aria-label="Telegram"
+            class="text-white hover:text-gray-400"
+          >
+            <i class="fab fa-telegram text-2xl"></i>
+          </a>
+          <a
+            href="mailto:bisratt1995@gmail.com"
+            aria-label="Email"
+            class="text-white hover:text-red-400"
+          >
+            <i class="fas fa-envelope text-2xl"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: Contact Form -->
       <form
         @submit.prevent="handleSubmit"
-        class="space-y-6 bg-black border p-8 mt-12 rounded-lg shadow-lg backdrop-blur-md"
+        class="space-y-6 bg-black border p-8 rounded-lg shadow-lg backdrop-blur-md"
       >
-        <h2 class="text-2xl font-bold">Contact Me</h2>
         <div>
           <label for="name" class="block text-sm font-medium">Name</label>
           <input
@@ -95,20 +127,12 @@ export default {
 
 <style scoped>
 /* Responsive adjustments */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
+    gap: 2rem !important;
   }
 }
-
-/* Change cursor to text when hovering over writing fields */
-/* input, textarea {
-  cursor: text !important;
-}
-
-/* Ensure input text color is black */
-/* input, textarea {
-  color: black;
-}  */
 </style>
+
 
