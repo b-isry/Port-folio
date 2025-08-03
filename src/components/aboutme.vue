@@ -30,7 +30,7 @@
               <i class="fa fa-code text-2xl"></i>
             </a>
             <a
-              href="https://drive.google.com/file/d/1x1Lp9fjULZPswnVd58Nq_39BOrGSNIz_/view?usp=sharing"
+              href="https://drive.google.com/file/d/12_EWqMnoi3TuXAw-AC3Oh1wMS_l5-Fej/view?usp=sharing"
               target="_blank"
               rel="noopener"
               class="border border-white text-xs px-2 py-1 rounded hover:bg-white hover:text-black transition duration-300"
