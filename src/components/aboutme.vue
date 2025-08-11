@@ -17,7 +17,7 @@
             <a href="https://github.com/b-isry" target="_blank" class="text-white hover:text-gray-400">
               <i class="fab fa-github text-2xl"></i>
             </a>
-            <a href="https://www.linkedin.com/in/bisrat-teshome-6182632b4/" target="_blank" class="text-white hover:text-gray-400">
+            <a href="https://www.linkedin.com/in/bisrat-tesh/" target="_blank" class="text-white hover:text-gray-400">
               <i class="fab fa-linkedin text-2xl"></i>
             </a>
             <a href="https://instagram.com/b_isry" target="_blank" class="text-white hover:text-gray-400">
@@ -30,7 +30,7 @@
               <i class="fa fa-code text-2xl"></i>
             </a>
             <a
-              href="https://drive.google.com/file/d/12_EWqMnoi3TuXAw-AC3Oh1wMS_l5-Fej/view?usp=sharing"
+              href="https://drive.google.com/file/d/1jKsg0U1FR8FHZ8jQD8nXbhKFqe5vpHBE/view?usp=sharing"
               target="_blank"
               rel="noopener"
               class="border border-white text-xs px-2 py-1 rounded hover:bg-white hover:text-black transition duration-300"
